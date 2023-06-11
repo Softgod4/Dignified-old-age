@@ -8,6 +8,13 @@
 .sec_01 {
     background-color: #ebebeb;
 }
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ebebeb;
+    overflow-x: hidden;
+}
 .bg_sec_01 {
     background-image: url("/img/header/pic.png");
     background-repeat: no-repeat;
@@ -57,14 +64,16 @@
     border-radius:  10px;
     color: #ffb198;
     border: none;
+    font-weight: bold;
 }
 #navbar__button:hover {
-    background-color: white;
+    background-color: #ffb198;
     border-radius: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #navbar__logo {
     margin-right: 100px;
+    cursor: pointer;
 }
 .container__box {
     max-width: 1200px;
@@ -139,6 +148,7 @@
     padding-right: 5vh;
     top: -15vh;
     padding-bottom: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .header__sum_button {
     display: flex;
@@ -254,23 +264,891 @@
     height: auto;
 }
 
+.about__fondation_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__fondation_button button {
+    width: 224px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #ffc4b3;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bg_sec_03 {
+    background-color: #ebebeb;
+    height: 300px;
+}
+.sec_03 {
+    background-color: #ebebeb;
+}
+.about__fondation_button button {
+    margin-top: 30px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.5s;
+}
+.about__fondation_button p {
+    margin-top: 47px;
+}
+.about__fondation_button button:first-child {
+    margin-right: 50%;
+    font-weight: bold;
+}
+#be__volunteer {
+    margin-right: 46px;
+    height: 60px;
+    font-weight: bold;
+}
+#be__partner {
+    margin-left: 46px;
+    height: 60px;
+    font-weight: bold;
+}
+.about__fondation_button button:hover {
+    background-color: #ffad94;
+    color: white;
+}
+.about__fondation_button p {
+    font-weight: bold;
+}
+.sec2__project h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sec2__project_button {
+    display: flex;
+    align-items: center;
+}
+
+.sec2__project_button button {
+    width: 274px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: all 0.5s;
+}
+.sec2__project_button button:not(:first-child) {
+    margin-left: 10px;
+}
+.sec2__project_button button:hover {
+    width: 214px;
+    background-color: #ffad94;
+    color: white;
+    white-space: nowrap;
+}
+.bg_sec_04 {
+    background-color: #ebebeb;
+    height: 17vh;
+}
+.sec_04__arrows {
+    margin-top: 60px;
+    float: right;
+    display: flex;
+}
+.sec_04_right_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    width: 44px;
+    height: 44px;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+.sec_04_left_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+.sec_04_right_arrow:hover {
+    background-color: white;
+    
+    cursor: pointer;
+}
+.sec_04_left_arrow:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.bg_sec_05 {
+    background-color: #ebebeb;
+    height: auto;
+}
+.sec_04__cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.sec_04__card {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 274px;
+    height: 440px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 25px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sec_04__card:hover {
+    padding-top: 45px;
+    height: 500px;
+    margin-bottom: -500px;
+    background-color: #ff9070;
+    color: white;
+}
+
+.sec_04__card:not(:first-child) {
+    margin-left: 14px;
+}
+
+.sec_04__card p {
+    font-size: 10pt;
+}
+.sec_04__card h2 {
+    font-size: 15pt;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.button__all_programm {
+    display: flex;
+    margin-top: 130px;
+    position: relative;
+    bottom: 30px;
+}
+.button__all_programm button {
+    width: 224px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ffad94;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: all 0.5s;
+}
+
+.button__all_programm button:hover {
+    background-color: #ffb198;
+    color: rgb(255, 255, 255);
+}
+
+.bg_sec_06 {
+    height: auto;
+    background: rgb(221,98,65);
+    background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%);
+}
+.sec_06__less {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.sec_06__text {
+    white-space: nowrap;
+    color: white;
+    z-index: 9;
+    padding: 0 5px 0 5px;
+}
+
+.sec_06__text h1{
+    margin-top: 15vh;
+    margin-left: 5px;
+    font-weight: bold;
+    margin-bottom: 10vh;
+}
+.sec_06__text {
+    position: relative;
+    white-space: nowrap;
+    color: white;
+}
+.sec_06__text a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.sec_06__text a:not(:last-child) {
+    margin-bottom: 5px !important;
+    font-weight: bold;
+}
+.sec_06__text a:not(:first-child) {
+    margin-bottom: 15vh;
+}
+
+#sec_07__adress_help {
+    margin-top: 25vh;
+    margin-bottom: 15vh;
+    font-weight: bold;
+}
+.sec_07__card {
+    position: relative;
+    margin: 8px 8px 8px 8px;
+    cursor: pointer;
+    display: block;
+    width: 274px;
+    height: 710px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.sec_07__card h3 {
+    margin-top: 5vh;
+    font-size: 15.5pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.sec_07__card_adress {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.sec_07__card_adress p {
+    font-size: 11pt;
+}
+.sec_07__card_adress img {
+    width: 29px;
+    height: 43px;
+    margin-right: 3vh;
+}
+
+.sec_07__card_band {
+    width: 234px;
+    border-bottom: 2px solid #ebebeb; 
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec_07__card_help {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.sec_07__card_help p {
+    font-size: 11pt;
+}
+.sec_07__card_help img {
+    width: 38px;
+    height: 33px;
+    margin-right: 3vh;
+}
+
+
+.sec_07__card_count {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.sec_07__card_count p {
+    font-size: 11pt;
+}
+.sec_07__card_count img {
+    position: relative;
+    width: 35px;
+    height: 33px;
+    margin-right: -1vh;
+    right: 35px;
+    top: 18px;
+}
+.sec_07__card_count p span{
+    font-weight: bold;
+}
+#card_07__progress {
+    margin-left: 20px;
+    width: 234px;
+    height: 8px;
+    background: #ebebeb;
+    border-radius: 10px;
+    border: none;
+}
+
+#card_07__wanthelp {
+    width: 234px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffad94;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 13px;
+    transition: all 0.5s;
+}
+
+#card_07__wanthelp:hover {
+    font-size: 17px;
+    width: 234px;
+    height: 60px;
+    background-color: #ff7852;
+    font-weight: bold;
+}
+
+.sec_07__cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.bg_sec_08 {
+    height: auto;
+    background: rgb(221,98,65);
+    background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%);
+}
+
+.bg_sec_08 h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.sec_08 {
+    margin-top: 40px;
+}
+
+#sec_08__h1 {
+    padding-top: 15vh;
+    font-weight: bolder;
+    padding-bottom: 15vh;
+}
+.sec_08__cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.sec_08__card {
+    position: relative;
+    margin: 8px 8px 8px 8px;
+    cursor: pointer;
+    display: block;
+    width: 272px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.sec_08__card img {
+    width: 100%;
+    height: auto;
+}
+.sec_08__card_text h3{
+    margin-top: 5vh;
+    font-size: 15.5pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.sec_08__card_text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11pt;
+}
+
+.sec_08__card_text h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15.5pt;
+    font-weight: bold;
+    color: #ffb29a;
+}
+
+#all_programm_button {
+    width: 224px;
+    height: 60px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #ffad94;
+    margin: 49px 0 144px 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#all_programm_button:hover {
+    color: black;
+    background-color: white;
+}
+
+.bg_sec_09 {
+    background-color: #ebebeb;
+    height: auto;
+}
+.sec_09__text h2 {
+    font-weight: bold;
+    padding-top: 25vh;
+    padding-bottom: 17vh;
+}
+
+.sec_09__card {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    display: block;
+    width: 364px;
+    height: 410px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sec_09__card img {
+    width: 100%;
+    height: auto;    
+}
+.sec_09__card_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec_09__card_text p {
+    padding: 25px;
+}
+
+.sec_09__cards {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.sec_09__button button {
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+    background-color: #ff7852;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 11vh;
+    transition: all 0.5s;
+}
+
+.sec_09__button button:hover {
+    background-color: #ffb198;
+    color: #ffffff;
+}
+
+
+.bg_sec_10 {
+    height: 110vh;
+    background: rgb(221,98,65);
+    background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%);
+}
+#sec10__advice {
+    padding-top: 23vh;
+    font-weight: bold;
+    color: white;
+}
+
+.sec_10__advice_text button {
+    width: 224px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    margin-top: 6vh;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sec_10__advice_text button:hover {
+    background-color: #ffa68e;
+    color: white;
+}
+
+.sec_10__advice_text p {
+    color: white;
+    font-size: 11pt;
+}
+
+.sec_10__advice_text p:first-child {
+    margin-top: 20vh;
+}
+
+.sec_10__advice_text {
+    display: block;
+}
+.sec_10__advice_picture {
+    display: flex;
+}
+
+.sec_10__advice {
+    display: flex;
+}
+
+.sec_10__advice_picture img {
+    width: 300px;
+    height: 300px;
+}
+.sec_10__advice_text2 {
+    color: white;
+    margin-left: 30px;
+}
+.sec_10__advice_text2 h3 {
+    margin-bottom: 20px;
+}
+.sec_10__advice_picture {
+    position: relative;
+    left: 50px;
+    top: 130px;
+    height: 350px;
+}
+
+.bg_sec_11 {
+    background: #ebebeb;
+    height: auto;
+}
+
+#ustav__documents {
+    padding-top: 25vh;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.documents__icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 50px 50px;
+}
+.documents__icon_text {
+    display: block;
+}
+.documents__irl {
+    margin-bottom: -0.5px;
+    font-weight: bold;
+}
+.documents__icon_text a {
+    color: #767575;
+}
+
+.documents__icon_text {
+    margin-left: 20px;
+}
+
+.documents__icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.documents__icon img{
+    cursor: pointer;
+    width: 45px;
+    height: 50px;
+}
+.bg_sec_12 {
+    background-color: #ffad94;
+    height: 30px;
+    width: auto;
+}
+
+.bg_sec_13 {
+    background-color: #3e3e3e;
+    height: auto;
+}
+
+.sec13__card h3 {
+    color: #ffa990;
+    font-size: 17pt;
+}
+.sec13__card p {
+    color: white;
+    margin-top: 25px;
+    display: block;
+}
+.sec13__cards {
+    padding-top: 13vh;
+    padding-bottom: 11vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec13__card input{
+    margin-top: 10px;
+    width: 290px;
+    height: 45px;
+    background-color: #f3f3f3;
+    border: 10px;
+    color: #989898;
+    border: none;
+    border-radius: 10px;
+}
+.sec13__card button {
+    width: 290px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffad94;
+    color: white;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 13pt;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.sec13__card button:hover {
+    background-color: white;
+    color: black;
+}
+.sec13__adress p{
+    margin-top: 0px;
+}
+
+.sec13__card:not(:first-child) {
+    padding-top: 50px;
+}
+
+.bg_sec_14 {
+    background-color: #222222;
+    height: auto;
+}
+
+.sec14__cards {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec14__card p {
+    margin-top: 25px;
+    color: white;
+    font-size: 9pt;
+} 
+.sec14__card_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec14__icon {
+    margin-right: 31.5px;
+}
+#sec14__icon2 {
+    margin-left: 31.5px;
+} 
+
+.sec14__card_links {
+    margin-bottom: 45px;
+}
+#sec14__policy {
+    color: #ffa68e;
+    font-size: 11pt;
+    text-decoration: none;
+}
+
+.sec14__scramlogo {
+    display: flex;
+}
+
+.sec14__scramlogo img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 475px){
+    .sec_10__advice_text2 p {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1094px) {
+    #navbar__logo {
+        margin-right: 5px;
+        cursor: pointer;
+      }
+}
+
+@media screen and (max-width: 778px){
+    .header__help_card a {
+        margin-left: 10%;
+      }
+}
+
+
+@media screen and (max-width: 1265px) {
+    .sec_10__advice {
+        display: block;
+    }
+    .sec_10__advice_picture {
+        display: block;
+        top: 30px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec_10__advice_text p:first-child {
+        margin-top: 1vh;
+    }
+    .bg_sec_10 {
+        height: 135vh;
+    }
+    .sec_10__advice_picture img {
+        margin-bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 511px) {
+    .sec_06__text {
+        white-space: pre-wrap;
+    }
+    
+    .sec_06__text p {
+        white-space: wrap;
+        font-size: 15px;
+    }
+    .sec_10__advice_text2 {
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 697px) {
+    .sec_06__text p {
+        font-size: 10pt;
+        white-space: wrap;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sec_06__text p {
+        font-size: 10pt;
+        white-space: pre-wrap;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .sec_04__card {
+        background-color: white;
+        margin: 5px 5px 5px 5px;
+    }
+    .sec_04__card:not(:first-child) {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .sec2__project_button {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .sec2__project_button button {
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-right: 0px; 
+    }
+    .sec2__project_button {
+        flex-wrap: wrap;
+        width: auto;
+        flex: 1;
+        margin-left: 0px;
+    }
+    .sec2__project_button button:not(:first-child) {
+        margin-left: 0px;
+    }
+    .sec2__project h1 {
+        margin-left: 30px;
+        display: flex;
+        font-weight: bold;
+        margin-bottom: 30px;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec2__project {
+        justify-content: center;
+        align-items: center;
+    }
+    .sec2__project_button button:hover {
+        max-width: 274px;
+        background-color: #ffad94;
+        color: white;
+        white-space: nowrap;
+    }
+}
 
 @media screen and (max-width: 508px) {
     .about__fondation_texts {
-        font-size: 10.5px !important;
+        font-size: 11.5px !important;
         font-weight: bold;
     }
     .about__fondation_text h1 {
         font-size: 23px;
     }
 }
-
-
 
 @media screen and (max-width: 1320px) { 
     .sec_02__about {
@@ -284,6 +1162,9 @@
     margin-top: 0px;
     max-width: 90%;
     height: auto;
+    }
+    .about__fondation_button button:first-child {
+    margin-right: 10%;
     }
 }
 
@@ -304,12 +1185,24 @@
 
 @media screen and (max-width: 800px) {
     .header__help {
-        height: 820px !important;
+        height: 870px !important;
         width: 100%;
     }
     #header__help_fond {
         margin-left: 0 !important;
     }
+    .about__fondation_button button:first-child {
+        display: none;
+    }
+    #be__volunteer {
+    margin-right: 16px;
+    height: 50px;
+    }
+
+    #be__partner {
+    margin-left: 16px;
+    height: 50px;
+}
 }
 
 @media screen and (max-width: 590px) {
@@ -408,7 +1301,7 @@
       flex-basis: 100%; /* Устанавливаем ширину кнопки на 100%, чтобы она переносилась на новую строку */
     }
     .header__help {
-        height: 900px !important;
+        height: 870px !important;
     }
 }
 
@@ -469,6 +1362,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        white-space: nowrap;
     }
     .header__text h2 {
         font-size: 22px;
@@ -485,5 +1379,45 @@
         font-size: 14pt;
         font-weight: normal;
         white-space: nowrap;
+    }
+}
+@media screen and (max-width: 650px) {
+    .header__text h2 {
+        font-size: 32px;
+        line-height: 48pt;
+    }
+    .header__text h1 {
+        font-size: 32pt;
+        font-weight: bold;
+        line-height: 38pt;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header__text h2 {
+        font-size: 15px;
+        line-height: 18pt;
+    }
+    .header__text h1 {
+        font-size: 27pt;
+        font-weight: bold;
+        line-height: 38pt;
+    }
+}
+@media screen and (max-width: 790px){
+    .sec2__project_button button {
+        margin: 10px 10px 10px 10px !important;
+    }
+    .sec_04__card {
+        margin: 7px 7px 7px 7px !important;
+    }
+}
+@media screen and (max-width: 841px) {
+    .sec_04__card {
+        margin: 7px 7px 7px 7px !important;
+    }
+}
+@media screen and (max-width: 638px) {
+    #header__another_read {
+        display: none;
     }
 }
