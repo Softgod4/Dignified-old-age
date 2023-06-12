@@ -348,7 +348,6 @@ body {
     margin-left: 10px;
 }
 .sec2__project_button button:hover {
-    width: 214px;
     background-color: #ffad94;
     color: white;
     white-space: nowrap;
@@ -467,8 +466,9 @@ body {
 
 .bg_sec_06 {
     height: auto;
-    background: rgb(221,98,65);
-    background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%);
+    /*background: rgb(221,98,65);
+    background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%); */
+    background-image: url("/img/sec6/less2.png");
 }
 .sec_06__less {
     display: flex;
@@ -481,7 +481,8 @@ body {
     color: white;
     z-index: 9;
     padding: 0 5px 0 5px;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .sec_06__text h1{
@@ -867,8 +868,8 @@ body {
 }
 .documents__icon {
     display: flex;
-    justify-content: space-between;
     padding: 50px 50px 50px 50px;
+    width: 33%;
 }
 .documents__icon_text {
     display: block;
@@ -887,7 +888,7 @@ body {
 
 .documents__icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -916,19 +917,20 @@ body {
     color: white;
     margin-top: 25px;
     display: block;
+    padding-right: 15px;
 }
 .sec13__cards {
     padding-top: 13vh;
     padding-bottom: 11vh;
     display: flex;
     justify-content:space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .sec13__card input{
     margin-top: 10px;
-    width: 290px;
+    width: 250px;
     height: 45px;
     background-color: #f3f3f3;
     border: 10px;
@@ -937,7 +939,7 @@ body {
     border-radius: 10px;
 }
 .sec13__card button {
-    width: 290px;
+    width: 250px;
     height: 45px;
     border: none;
     border-radius: 10px;
@@ -955,10 +957,6 @@ body {
 }
 .sec13__adress p{
     margin-top: 0px;
-}
-
-.sec13__card:not(:first-child) {
-    padding-top: 50px;
 }
 
 .bg_sec_14 {
@@ -1015,6 +1013,10 @@ body {
     margin-right: 10px;
 }
 
+.sec_06__text {
+    position: relative;
+    left: 40vh;
+}
 
 
 
@@ -1027,6 +1029,29 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .documents__icon {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .documents__icon {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 475px){
     .sec_10__advice_text2 p {
@@ -1058,13 +1083,13 @@ body {
         top: 30px;
         width: 300px;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .sec_10__advice_text p:first-child {
         margin-top: 1vh;
     }
     .bg_sec_10 {
-        height: 135vh;
+        height: 155vh;
     }
     .sec_10__advice_picture img {
         margin-bottom: 5px;
@@ -1096,8 +1121,10 @@ body {
 
 @media screen and (max-width: 575px) {
     .sec_06__text p {
-        font-size: 10pt;
+        font-size: 12pt;
         white-space: pre-wrap;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -1431,5 +1458,53 @@ body {
 @media screen and (max-width: 638px) {
     #header__another_read {
         display: none;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .bg_sec_10 {
+        height: 170vh !important;
+      }
+}
+
+@media screen and (max-width: 463px) {
+    .documents__icons {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sec13__card {
+        padding: 50px 0 50px 0;
+    }
+    #sec13__input {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec_10__advice_text p {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 12pt;
+    }
+}
+@media screen and (max-width: 1330px) {
+    .sec_06__text {
+        position: relative;
+        left: 0vh !important;
+    }
+    .sec_06__img {
+        display: none;
+    }
+}
+@media screen and (max-width: 530px) {
+    .sec_10__advice_text2 p {
+    display: none;
+    }
+}
+@media screen and (max-width: 576px) {
+    .bg_sec_06 {
+        background: rgb(221,98,65);
+        background: linear-gradient(90deg, rgba(221,98,65,1) 0%, rgba(230,121,92,1) 35%, rgba(255,153,127,1) 100%);
     }
 }
