@@ -1018,6 +1018,55 @@ body {
     left: 40vh;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto; 
+    padding: 30px;
+    max-width: 50%; 
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.close {
+    color: #141010;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: auto;
+    transition: all 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-text h5{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  .modal-text a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal_big__text {
+    overflow-y: auto;
+    max-height: 300px; /* задайте максимальную высоту, чтобы контент не занимал слишком много места */
+  }
 
 
 
@@ -1044,6 +1093,12 @@ body {
 @media screen and (max-width: 768px) {
     .documents__icon {
         width: 50%;
+    }
+    .modal-content {
+        background-color: #ffffff;
+        margin: 15% auto; 
+        padding: 30px;
+        max-width: 80%;
     }
 }
 
@@ -1181,7 +1236,7 @@ body {
 
 @media screen and (max-width: 508px) {
     .about__fondation_texts {
-        font-size: 11.5px !important;
+        font-size: 12px !important;
         font-weight: bold;
     }
     .about__fondation_text h1 {
@@ -1295,7 +1350,7 @@ body {
         margin-left: 1%;
     }
     .header__help_card img {
-        flex-basis: calc(180px - 10px); /* Определяем минимальную ширину кнопки */
+        flex-basis: calc(180px - 10px);
     }
     .header__help_card img:not(:first-child) {
         margin-left: 20px;
@@ -1337,7 +1392,7 @@ body {
 
 @media screen and (max-width: 800px) {
     .header__sum {
-      flex-basis: 100%; /* Устанавливаем ширину кнопки на 100%, чтобы она переносилась на новую строку */
+      flex-basis: 100%;
     }
     .header__help {
         height: 870px !important;
