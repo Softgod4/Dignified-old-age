@@ -122,6 +122,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+#header__help_fond:hover {
+    background-color: #ff7852;
+    color: white;
+}
 .header__button_about a {
     color: white;
     font-size: 17pt;
@@ -168,6 +172,10 @@ body {
     transition: all 0.4s;
 }
 .header__sum:hover {
+    background-color: #ffad94;
+    color: white;
+}
+.header__sum:focus {
     background-color: #ffad94;
     color: white;
 }
@@ -413,7 +421,6 @@ body {
 
 .sec_04__card:hover {
     padding-top: 45px;
-    height: 500px;
     margin-bottom: -500px;
     background-color: #ff9070;
     color: white;
@@ -474,6 +481,7 @@ body {
     color: white;
     z-index: 9;
     padding: 0 5px 0 5px;
+    padding-left: 10px;
 }
 
 .sec_06__text h1{
@@ -508,7 +516,6 @@ body {
 .sec_07__card {
     position: relative;
     margin: 8px 8px 8px 8px;
-    cursor: pointer;
     display: block;
     width: 274px;
     height: 710px;
@@ -655,7 +662,6 @@ body {
 .sec_08__card {
     position: relative;
     margin: 8px 8px 8px 8px;
-    cursor: pointer;
     display: block;
     width: 272px;
     height: 550px;
@@ -788,6 +794,7 @@ body {
     padding-top: 23vh;
     font-weight: bold;
     color: white;
+    padding-left: 10px;
 }
 
 .sec_10__advice_text button {
@@ -801,6 +808,7 @@ body {
     margin-top: 6vh;
     cursor: pointer;
     transition: all 0.5s;
+    padding-left: 10px;
 }
 
 .sec_10__advice_text button:hover {
@@ -811,6 +819,7 @@ body {
 .sec_10__advice_text p {
     color: white;
     font-size: 11pt;
+    padding-left: 10px;
 }
 
 .sec_10__advice_text p:first-child {
@@ -977,9 +986,11 @@ body {
 }
 #sec14__icon {
     margin-right: 31.5px;
+    cursor: pointer;
 }
 #sec14__icon2 {
     margin-left: 31.5px;
+    cursor: pointer;
 } 
 
 .sec14__card_links {
@@ -992,6 +1003,7 @@ body {
 }
 
 .sec14__scramlogo {
+    cursor: pointer;
     display: flex;
 }
 
