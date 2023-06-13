@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Достойная старость</title>
 </head>
-<body onload="setTimeout(openModal, 30)">
+<body onload="setTimeout(openModal, 30000)">
   <div id="myModal" class="modal">
 	  <div class="modal-content">
 	    <span class="close">&times;</span>
@@ -325,7 +326,7 @@
               <div class="sec_08__text">
                 <h1 id="sec_08__h1">ИСТОРИИ УСПЕХА</h1>
               </div>
-              <div class="sec_08__cards">
+              <div class="sec_08__cards" id="slider">
                 <div class="sec_08__card">
                   <img src="img/sec8/child1.png" alt="">
                   <div class="sec_08__card_text">
@@ -543,9 +544,9 @@
     </section>
     </footer>
 </body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
-    </script>
 </html>
