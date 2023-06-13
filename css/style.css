@@ -1074,13 +1074,75 @@ body {
 
 
 
+.sec__arrows {
+    display: flex;
+    float: right;
+    margin-top: 35px;
+}
+.sec_right_arrow {
+    background: url('/img/sec4/icon_arrow\ copy.png');
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 5px solid #ebebeb;
+}
 
+.sec_left_arrow {
+    background: url('/img/sec4/icon_arrow\ copy.png');
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 5px solid #ebebeb;
+}
+.sec_left_arrow:hover {
+    background: url('/img/sec4/icon_arrow2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid white;
+    background-color: white;
+}
+.sec_right_arrow:hover {
+    background: url('/img/sec4/icon_arrow2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid white;
+    background-color: white;
+}
 
+#arrows_green {
+    margin-top: 160px;
+    background-color: #f89075;
+    border: 5px solid #f89075;
+}
+#arrows_green2 {
+    margin-top: 160px;
+    background-color: #f89075;
+    border: 5px solid #f89075;
+}
+#arrows_green:hover {
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+}
+#arrows_green2:hover {
+    background-color: #ffffff;
+    border: 5px solid #ffffff;
+}
 
-
-
-
-
+#arrow_white {
+    margin-top: 190px;
+}
+#arrow_white2 {
+    margin-top: 190px;
+}
 
 
 
