@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Достойная старость</title>
 </head>
-<body onload="setTimeout(openModal, 30000)">
+<body>
   <div id="myModal" class="modal">
 	  <div class="modal-content">
 	    <span class="close">&times;</span>
@@ -21,12 +20,37 @@
       </div>
 	  </div>
 	</div>
+
+  <div id="myModal2" class="modal">
+	  <div class="modal-content2">
+      <span class="close1">&times;</span>
+      <div class="modal-content3">
+        <div class="modal2-photo">
+          <img src="img/header/volonter.png" alt="volonter">
+        </div>
+        <div class="modal2-text">
+          <h3>Хотите стать волонтером фонда?</h3>
+          <p>заполните форму и наш координатор свяжется с вами.</p>
+          <div class="modal2-input">
+            <input type="text" placeholder="  Имя">
+            <input type="text" placeholder="  Телефон">
+            <input type="text" placeholder="  Email">
+          </div>
+          <div class="modal2-input2">
+            <input type="text" placeholder="  Возраст">
+            <button>Отправить</button>
+            <a href="#"><span>соглашаюсь на<br/></span>обработку персональных<br/>данных</a>
+          </div>
+        </div>
+      </div>
+	  </div>
+	</div>
     <header>
         <section class="sec_01">
           <div class="bg_sec_01">
           <div class="container__box">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <img id='navbar__logo' src="img/header/logo-main.png" alt="logo">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+              <img id='navbar__logo' src="img/header/logo-main.png" alt="logo" onclick="openModal2()">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                   <svg viewBox="0 0 100 80" width="25" height="34">
@@ -105,7 +129,7 @@
                 <img src="img/header/card/visa-logo.png" alt="visa">
                 <img src="img/header/card/Mastercard-logo.png" alt="mc">
                   <a href="#" id="header__another_card">Другие виды оплаты</a>
-                  <a href="#" id="header__another_read"><span>Соглашаюсь с</span><br> условиями оферты</a>
+                  <a href="#" id="header__another_read" onclick="openModal()"><span>Соглашаюсь с</span><br> условиями оферты</a>
               </div>
             </div>
             <div class="container__box">
@@ -214,7 +238,6 @@
                   <p>Мы осознаем, что старость может представлять ряд трудностей и вызовов, и поэтому<br/> мы стремимся предоставить различные программы и услуги, которые помогут <br/>пожилым людям справиться с этими трудностями и наслаждаться полноценной<br/> жизнью.</p>
                   <p>Наш фонд поддерживает широкий спектр инициатив, включая домашний, <br/>больничный уход, медицинскую помощь, социальную поддержку и другие <br/>программы, направленные на повышение качества жизни пожилых людей. Мы <br/>верим, что каждый человек заслуживает заботы и поддержки, независимо от <br/>возраста.</p>
                   <p>Мы приглашаем вас присоединиться к нам в этой благородной миссии. Вы можете <br/>внести свой вклад, поддержав фонд финансово или став волонтером. Ваша <br/>поддержка позволит нам расширить наши программы и помочь большему числу <br/>пожилых людей.</p>
-              
                   <a href="">Барцевич Анастасия Витальевна</a>
                   <a href="">Президента фонда «Достойная старость»</a>
                 </div>
@@ -423,10 +446,6 @@
         <section class="sec_10">
           <div class="bg_sec_10">
             <div class="container__box">
-              <div class="sec__arrows">
-                <div class="sec_left_arrow" id="arrows_green"></div>
-                <div class="sec_right_arrow" id="arrows_green2"></div>
-              </div>
               <h2 id="sec10__advice">ПОПЕЧИТЕЛЬСКИЙ СОВЕТ</h2>
               <div class="sec_10__advice">
                 <div class="sec_10__advice_text">
@@ -552,7 +571,7 @@
             </div>
             <div class="sec14__card">
               <div class="sec14__scramlogo">
-                <p>разработка и продвижение сайта - </p>
+                <p>Разработка и продвижение сайта - </p>
                 <img src="img/sec14/Logo.png" alt="logo" href="https://scrum360.ru/">
                 <p>Скрам360</p>
               </div>
