@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Достойная старость</title>
 </head>
 <body>
@@ -50,7 +52,7 @@
           <div class="bg_sec_01">
           <div class="container__box">
           <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
-              <img id='navbar__logo' src="img/header/logo-main.png" alt="logo" onclick="openModal2()">
+              <img id='navbar__logo' src="img/header/logo-main.png" alt="logo" href="#">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                   <svg viewBox="0 0 100 80" width="25" height="34">
@@ -166,7 +168,7 @@
             <div class="container__box">
               <div class="about__fondation_button">
                 <button>Подробнее о фонде</button>
-                <button id="be__volunteer">Стать волонтером</button>
+                <button id="be__volunteer" onclick="openModal2()">Стать волонтером</button>
                 <p>или</p>
                 <button id="be__partner">Стать партнером</button>
               </div>
@@ -571,9 +573,9 @@
             </div>
             <div class="sec14__card">
               <div class="sec14__scramlogo">
-                <p>Разработка и продвижение сайта - </p>
+                <a href="https://scrum360.ru/">Разработка и продвижение сайта - </a>
                 <img src="img/sec14/Logo.png" alt="logo" href="https://scrum360.ru/">
-                <p>Скрам360</p>
+                <a href="https://scrum360.ru/">Скрам360</a>
               </div>
             </div>
           </div>
@@ -582,9 +584,9 @@
     </section>
     </footer>
 </body>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/index.js"></script>
 </html>

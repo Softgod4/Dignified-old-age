@@ -1013,7 +1013,6 @@ body {
 .sec14__scramlogo img {
     width: 30px;
     height: 30px;
-    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -1260,6 +1259,14 @@ body {
 .modal2-input2 button:hover {
     background-color: #ff7852;
 }
+.sec14__scramlogo a {
+    color: white;
+}
+
+
+
+
+
 
 
 
