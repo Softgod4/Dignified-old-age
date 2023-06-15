@@ -219,6 +219,7 @@ body {
 .header__help_card img {
     width: 80px;
     height: 29px;
+    margin-left: 5%;
 }
 .header__help_card img:last-child {
     width: 40px;
@@ -521,7 +522,7 @@ body {
     margin: 8px 8px 8px 8px;
     display: block;
     width: 274px;
-    height: 760px;
+    height: 720px;
     background-color: white;
     border-radius: 10px;
     justify-content: center;
@@ -1241,7 +1242,7 @@ body {
     width: 100%;
     position: fixed;
     height: 95px;
-    z-index: 999;
+    z-index: 888;
 }
 
 .navbar-container.scrolled {
@@ -1259,32 +1260,49 @@ body {
     background-color: transparent;
 }
 
+.modal2-input3 {
+    overflow-y: scroll;
+    width: 50%;
+    height: 370px;
+}
+
+.modal2-img {
+    width: 30%;
+    height: auto;
+    float:inline-start;
+    margin-right: 50px;
+}
+#mass-input {
+    float: right;
+}
+
+#secret__content {
+    max-width: 60%;
+}
+
+.cards2 {
+    display: none;
+}
+.cards3 {
+    display: none;
+}
+.cards4 {
+    display: none;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 920px) {
+    .modal2-img.slider5 {
+        display: none;
+    }
+    #mass-input {
+        width: 100%;
+        height: 500px;
+    }
+}
 
 
 @media screen and (max-width: 1552px) {
