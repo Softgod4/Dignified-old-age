@@ -65,8 +65,8 @@ $('.slider').slick({
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
-  prevArrow: '<button type="button" class="slick-prev"><img src="img/icon_arrow_slider.png" /></button>',
-  nextArrow: '<button type="button" class="slick-next"><img src="img/icon_arrow_slider.png" /></button>',
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/sec4/icon_arrow copy.png" /></button>',
+  nextArrow: '<button type="button" class="slick-next"><img src="img/sec4/icon_arrow copy.png" /></button>',
   responsive: [
     {
       breakpoint: 1024,
@@ -101,6 +101,8 @@ $('.slider2').slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 3,
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/sec4/icon_arrow copy.png" /></button>',
+  nextArrow: '<button type="button" class="slick-next"><img src="img/sec4/icon_arrow copy.png" /></button>',
   responsive: [
     {
       breakpoint: 1024,
@@ -134,6 +136,8 @@ $('.slider3').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  prevArrow: '<button type="button" class="slick-prev"><img src="img/sec4/icon_arrow copy.png" /></button>',
+  nextArrow: '<button type="button" class="slick-next"><img src="img/sec4/icon_arrow copy.png" /></button>',
   responsive: [
     {
       breakpoint: 1024,

@@ -402,7 +402,6 @@ body {
 .sec_04__cards {
     display: flex;
     justify-content: center;
-    align-self: center;
     flex-wrap: wrap;
 }
 .sec_04__card {
@@ -413,6 +412,7 @@ body {
     height: 440px;
     background-color: white;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 25px;
     border-radius: 10px;
     justify-content: center;
@@ -1250,11 +1250,23 @@ body {
 
 .slick-next {
     float: right;
-    position: relative;
-    top: -458px;
-    right: 15px;
+    border: none;
     transform: rotate(180deg);
+    background-color: transparent;
 }
+.slick-prev {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1741,7 +1753,7 @@ body {
 }
 @media screen and (max-width: 500px) {
     .header__text h2 {
-        font-size: 15px;
+        font-size: 19px;
         line-height: 18pt;
     }
     .header__text h1 {
@@ -1754,14 +1766,9 @@ body {
     .sec2__project_button button {
         margin: 10px 10px 10px 10px !important;
     }
-    .sec_04__card {
-        margin: 7px 7px 7px 7px !important;
-    }
 }
 @media screen and (max-width: 841px) {
-    .sec_04__card {
-        margin: 7px 7px 7px 7px !important;
-    }
+
 }
 @media screen and (max-width: 638px) {
     #header__another_read {
